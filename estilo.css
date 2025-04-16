@@ -1,8 +1,40 @@
 body{
     background-color: #F2D0D3;
     color: #594246;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     color: #F2778D;
+}
+
+div{
+    background-color: #ffff;
+    padding: 20px;
+    margin: 20px 100px;
+    border-radius: 15px;
+    box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.327);
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    height: 300px;
+    margin-top: -150px;
+    border-radius: 25px;
+    box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.327);
+}
+
+.introducao{
+    margin-top: 150px;
+}
+
+footer{
+    background-color: #ffff;
+    text-align: center;
+    padding: 10px 0px;
 }
